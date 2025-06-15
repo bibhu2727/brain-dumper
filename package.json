@@ -1,0 +1,5 @@
+{
+  "name": "brain-dump-organizer-root", "version": "2.0.0", "private": true,
+  "scripts": { "install:all": "npm install && (cd client && npm install) && (cd server && npm install)", "dev": "concurrently \"npm:dev --prefix client\" \"npm:dev --prefix server\"" },
+  "devDependencies": { "concurrently": "^8.2.2" }
+}
